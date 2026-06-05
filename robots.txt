@@ -1,6 +1,6 @@
 # =====================================================
 # robots.txt — HUMARELIGIOUS Charity Organization
-# https://humareligious.org
+# https://www.humareligious.org
 # =====================================================
 
 # === Allow all major search engine crawlers ===
@@ -49,4 +49,4 @@ Allow: /
 # =====================================================
 # Sitemap location — tells Google exactly where it is
 # =====================================================
-Sitemap: https://humareligious.org/sitemap.xml
+Sitemap: https://www.humareligious.org/sitemap.xml
