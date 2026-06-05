@@ -1,0 +1,52 @@
+# =====================================================
+# robots.txt — HUMARELIGIOUS Charity Organization
+# https://humareligious.org
+# =====================================================
+
+# === Allow all major search engine crawlers ===
+User-agent: *
+Allow: /
+
+# Block access to any admin, backend, or private paths
+# (uncomment and adjust when you add these folders)
+# Disallow: /admin/
+# Disallow: /wp-admin/
+# Disallow: /private/
+# Disallow: /cgi-bin/
+
+# === Google ===
+User-agent: Googlebot
+Allow: /
+
+# === Bing / Microsoft ===
+User-agent: Bingbot
+Allow: /
+
+# === Yahoo ===
+User-agent: Slurp
+Allow: /
+
+# === DuckDuckGo ===
+User-agent: DuckDuckBot
+Allow: /
+
+# === Facebook / Meta (for Open Graph previews) ===
+User-agent: facebookexternalhit
+Allow: /
+
+# === Twitter / X ===
+User-agent: Twitterbot
+Allow: /
+
+# === WhatsApp link previews ===
+User-agent: WhatsApp
+Allow: /
+
+# === LinkedIn ===
+User-agent: LinkedInBot
+Allow: /
+
+# =====================================================
+# Sitemap location — tells Google exactly where it is
+# =====================================================
+Sitemap: https://humareligious.org/sitemap.xml
