@@ -453,7 +453,7 @@
       backdrop-filter: blur(6px);
       -webkit-backdrop-filter: blur(6px);
       border-top: 1px solid rgba(212,160,23,0.3);
-      padding: 0.75rem 1.1rem 1rem;
+      padding: 0.45rem 0.8rem 0.55rem;
       margin: 0;
       border-radius: 0 0 14px 14px;
       text-align: center;
@@ -466,14 +466,28 @@
     .service-card .emoji { display: none; }
     .service-card h3 {
       font-family: 'Playfair Display', serif;
-      font-size: 0.95rem; color: #fff;
-      margin-bottom: 0.3rem; font-weight: 700;
+      font-size: 0.88rem; color: #fff;
+      margin-bottom: 0.2rem; font-weight: 700;
     }
-    .service-card p { color: rgba(255,255,255,0.82); font-size: 0.72rem; line-height: 1.45; margin: 0; }
+    .service-card p { color: rgba(255,255,255,0.82); font-size: 0.68rem; line-height: 1.35; margin: 0; }
     .service-card .learn-link {
-      display: inline-block; margin-top: 0.5rem;
-      color: var(--navy-accent); font-size: 0.75rem; font-weight: 600;
+      display: inline-block; margin-top: 0.35rem;
+      color: var(--navy-accent); font-size: 0.7rem; font-weight: 600;
       text-decoration: none;
+    }
+    .sc-price {
+      display: inline-block;
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+      color: var(--navy-deep);
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 800;
+      letter-spacing: 0.03em;
+      padding: 0.2rem 0.55rem;
+      border-radius: 20px;
+      margin-bottom: 0.25rem;
+      line-height: 1.5;
+      box-shadow: 0 2px 6px rgba(212,160,23,0.4);
     }
 
     /* ===== GEOMETRIC DIVIDER ===== */
@@ -1899,7 +1913,7 @@
     </div>
     <div class="impact-card">
       <div class="icon">💧</div>
-      <span class="impact-num" data-target="100">0</span>
+      <span class="impact-num" data-target="3">0</span>
       <div class="impact-label">+ Water Wells Built</div>
     </div>
     <div class="impact-card">
@@ -1929,6 +1943,7 @@
       <div class="sc-overlay" style="position:absolute;inset:0;border-radius:inherit;z-index:0;transition:opacity 0.4s ease;"></div>
       <div class="sc-text-box">
         <span class="emoji">🐑</span>
+        <span class="sc-price">🐄 Cow £300 &nbsp;|&nbsp; 🐐 Goat £70 &nbsp;|&nbsp; 🐑 Sheep £80</span>
         <h3 style="color:#fff;">Qurban / Kurban</h3>
         <p style="color:rgba(255,255,255,0.9);">Honor the Sunnah of Ibrahim ﷺ. Your Qurban feeds hungry families who otherwise go without meat on Eid. Let's share the joy of Eid Al-Adha together, Insha'Allah.</p>
         <a href="#payment" class="learn-link" style="color:var(--gold-light);">Donate Qurban →</a>
@@ -1938,6 +1953,7 @@
       <div class="sc-overlay" style="position:absolute;inset:0;border-radius:inherit;z-index:0;transition:opacity 0.4s ease;"></div>
       <div class="sc-text-box">
         <span class="emoji">🍽️</span>
+        <span class="sc-price">£2 per child</span>
         <h3 style="color:#fff;">Feeding Program</h3>
         <p style="color:rgba(255,255,255,0.9);">No family should sleep hungry. Our feeding program delivers nutritious meals to vulnerable children and families across Sironko and Mbale. Your donation puts food on empty plates — Insha'Allah.</p>
         <a href="#payment" class="learn-link" style="color:var(--gold-light);">Feed a Family →</a>
@@ -1947,6 +1963,7 @@
       <div class="sc-overlay" style="position:absolute;inset:0;border-radius:inherit;z-index:0;transition:opacity 0.4s ease;"></div>
       <div class="sc-text-box">
         <span class="emoji">💧</span>
+        <span class="sc-price">£850 per well</span>
         <h3 style="color:#fff;">Water Wells</h3>
         <p style="color:rgba(255,255,255,0.9);">"The best form of Sadaqah Jariyah is giving water." Every well drilled in your name continues to reward you long after you're gone. Give the gift of clean water today.</p>
         <a href="#payment" class="learn-link" style="color:var(--gold-light);">Fund a Water Well →</a>
@@ -1956,24 +1973,27 @@
       <div class="sc-overlay" style="position:absolute;inset:0;border-radius:inherit;z-index:0;transition:opacity 0.4s ease;"></div>
       <div class="sc-text-box">
         <span class="emoji">🎒</span>
+        <span class="sc-price">£12 per child</span>
         <h3 style="color:#fff;">Back-to-School Support</h3>
         <p style="color:rgba(255,255,255,0.9);">Education is the ladder out of poverty. We provide school fees, uniforms, books, and supplies to children from struggling families so no child is left behind. Invest in futures today.</p>
         <a href="#payment" class="learn-link" style="color:var(--gold-light);">Support a Student →</a>
       </div>
     </div>
-    <div class="service-card" style="position:relative;overflow:hidden;background-image:url('https://i.postimg.cc/Jhn8DMYV/motion-photo-4180938831210144952.jpg');background-size:cover;background-position:center top;border-top-color:var(--gold);">
+    <div class="service-card" style="position:relative;overflow:hidden;background-image:url('https://i.postimg.cc/zBjqsSjS/IMG-20260607-WA0001.jpg);background-size:cover;background-position:center top;border-top-color:var(--gold);">
       <div class="sc-overlay" style="position:absolute;inset:0;border-radius:inherit;z-index:0;transition:opacity 0.4s ease;"></div>
       <div class="sc-text-box">
         <span class="emoji">🌾</span>
+        <span class="sc-price">£20 per family</span>
         <h3 style="color:#fff;">Farming Empowerment</h3>
         <p style="color:rgba(255,255,255,0.9);">We equip vulnerable families with seeds, tools, and training so they can grow their own food and earn a livelihood. Self-sufficiency is dignity. Your donation plants seeds of independence.</p>
         <a href="#payment" class="learn-link" style="color:var(--gold-light);">Empower a Farmer →</a>
       </div>
     </div>
-    <div class="service-card" style="position:relative;overflow:hidden;background-image:url('https://i.postimg.cc/ZYcNmxNp/IMG-20260302-WA0013.jpg');background-size:cover;background-position:center top;border-top-color:var(--gold);">
+    <div class="service-card" style="position:relative;overflow:hidden;background-image:url('https://i.postimg.cc/15GjsTHb/20250314-184205.avif');background-size:cover;background-position:center top;border-top-color:var(--gold);">
       <div class="sc-overlay" style="position:absolute;inset:0;border-radius:inherit;z-index:0;transition:opacity 0.4s ease;"></div>
       <div class="sc-text-box">
         <span class="emoji">🌙</span>
+        <span class="sc-price">£2 per person</span>
         <h3 style="color:#fff;">Ramadan Iftar</h3>
         <p style="color:rgba(255,255,255,0.9);">Double your rewards in the most blessed month. We distribute Iftar meals and food packages to ensure no Muslim goes hungry during Ramadan. "Whoever feeds a fasting person earns the same reward." Masha'Allah!</p>
         <a href="#payment" class="learn-link" style="color:var(--gold-light);">Give Iftar →</a>
@@ -1983,6 +2003,7 @@
       <div class="sc-overlay" style="position:absolute;inset:0;border-radius:inherit;z-index:0;transition:opacity 0.4s ease;"></div>
       <div class="sc-text-box">
         <span class="emoji">🚨</span>
+        <span class="sc-price">£40 per pack</span>
         <h3 style="color:#fff;">Emergency Aid</h3>
         <p style="color:rgba(255,255,255,0.9);">When disaster strikes — floods, drought, or sudden illness — families lose everything overnight. Be there for them in their darkest hour. Your urgent donation can save lives today.</p>
         <a href="#payment" class="learn-link" style="color:var(--gold-light);">Give Emergency Aid →</a>
@@ -1994,6 +2015,7 @@
       <div class="sc-overlay" style="position:absolute;inset:0;border-radius:inherit;z-index:0;transition:opacity 0.4s ease;"></div>
       <div class="sc-text-box">
         <span class="emoji">🤍</span>
+        <span class="sc-price">£40 per widow</span>
         <h3 style="color:#fff;">Widow Support</h3>
         <p style="color:rgba(255,255,255,0.9);">The Prophet ﷺ said: "The one who looks after a widow is like a warrior in the way of Allah." We provide widows with food, clothing, medical care, and livelihood support so they can stand strong. Be their strength today.</p>
         <a href="#payment" class="learn-link" style="color:var(--gold-light);">Support a Widow →</a>
@@ -2005,6 +2027,7 @@
       <div class="sc-overlay" style="position:absolute;inset:0;border-radius:inherit;z-index:0;transition:opacity 0.4s ease;"></div>
       <div class="sc-text-box">
         <span class="emoji">👶</span>
+        <span class="sc-price">£20 / month</span>
         <h3 style="color:#fff;">Orphan Support</h3>
         <p style="color:rgba(255,255,255,0.9);">"I and the one who sponsors an orphan will be like these two in Paradise" — Prophet Muhammad ﷺ (Bukhari). Sponsor an orphan's education, meals, clothing, and future. One child. One chance. Endless reward.</p>
         <a href="#payment" class="learn-link" style="color:var(--gold-light);">Sponsor an Orphan →</a>
@@ -2016,6 +2039,7 @@
       <div class="sc-overlay" style="position:absolute;inset:0;border-radius:inherit;z-index:0;transition:opacity 0.4s ease;"></div>
       <div class="sc-text-box">
         <span class="emoji">📋</span>
+        <span class="sc-price">Any contribution welcome</span>
         <h3 style="color:#fff;">Projects Fundraising</h3>
         <p style="color:rgba(255,255,255,0.9);">From building classrooms to funding community centres, we run dedicated campaigns for high-impact projects. Every project is a Sadaqah Jariyah opportunity — your name attached to something that outlives you, Insha'Allah.</p>
         <a href="#payment" class="learn-link" style="color:var(--gold-light);">Fund a Project →</a>
@@ -2027,6 +2051,7 @@
       <div class="sc-overlay" style="position:absolute;inset:0;border-radius:inherit;z-index:0;transition:opacity 0.4s ease;"></div>
       <div class="sc-text-box">
         <span class="emoji">🕌</span>
+        <span class="sc-price">Small £10,000 &nbsp;|&nbsp; Medium £12,500 &nbsp;|&nbsp; Large £20,000</span>
         <h3 style="color:#fff;">Renovations & Construction</h3>
         <p style="color:rgba(255,255,255,0.9);">Help us build and restore — Masjid construction, clean toilet facilities, and rehabilitation of old shelters for the vulnerable. "Whoever builds a Masjid for Allah, Allah will build for him a house in Paradise." (Bukhari)</p>
         <a href="#payment" class="learn-link" style="color:var(--gold-light);">Donate to Build →</a>
@@ -2074,7 +2099,7 @@
     <div class="why-card">
       <div class="icon-wrap">📊</div>
       <h3>Proven Track Record</h3>
-      <p>Alhamdulillah — over 500 orphans sponsored, 100+ water wells built, and 10,000+ Qurans distributed. Our impact speaks for itself. Join the growing family of HUMARELIGIOUS donors today.</p>
+      <p>Alhamdulillah — over 500 orphans sponsored, 3+ water wells built, and 10,000+ Qurans distributed. Our impact speaks for itself. Join the growing family of HUMARELIGIOUS donors today.</p>
     </div>
     <div class="why-card">
       <div class="icon-wrap">🔒</div>
@@ -3463,8 +3488,8 @@ function switchDuaLang(lang) {
       <div class="bank-detail-item">
         <div class="label">Swift / BIC Code</div>
         <div class="copy-field">
-          <span>SBICUGKXXXX</span>
-          <button class="copy-btn" onclick="copyText(this,'SBICUGKXXXX')">Copy</button>
+          <span>SBICUGKX</span>
+          <button class="copy-btn" onclick="copyText(this,'SBICUGKX')">Copy</button>
         </div>
       </div>
     </div>
@@ -4018,7 +4043,7 @@ function sendContactMessage() {
         <span>Namil Village, Mpogo Parish, Bukhulo Sub-County, Sironko District (Branch: Mbale City)</span>
       </div>
       <div style="margin-top:1rem; padding:0.8rem; background:rgba(212,160,23,0.1); border-radius:8px; border:1px solid rgba(212,160,23,0.2);">
-        <p style="font-size:0.75rem; color:rgba(255,255,255,0.65); line-height:1.6;">🏦 <strong style="color:var(--gold-light);">Stanbic Bank Uganda</strong><br>HUMARELIGIOUS Charity Organization<br>Acc: 9030028261313<br>Swift: SBICUGKXXXX</p>
+        <p style="font-size:0.75rem; color:rgba(255,255,255,0.65); line-height:1.6;">🏦 <strong style="color:var(--gold-light);">Stanbic Bank Uganda</strong><br>HUMARELIGIOUS Charity Organization<br>Acc: 9030028261313<br>Swift: SBICUGKX</p>
       </div>
     </div>
   </div>
@@ -4288,8 +4313,8 @@ function sendContactMessage() {
     },
     bank: {
       title: '🏦 Bank Transfer — How to Send',
-      html: '<ol><li>Log into your bank\'s online portal or visit your bank branch.</li><li>Choose <strong>International Wire Transfer</strong> (or local if in Uganda).</li><li>Bank Name: <strong>Stanbic Bank Uganda</strong></li><li>Account Name: <strong>HUMARELIGIOUS Charity Organization</strong></li><li>Account Number: <strong>9030028261313</strong></li><li>Swift / BIC Code: <strong>SBICUGKXXXX</strong></li><li>Screenshot your transfer confirmation receipt and send via WhatsApp. Jazaakallah Khayr! 🤲</li></ol>',
-      copies: [{ label: 'Bank', val: 'Stanbic Bank Uganda' }, { label: 'Acc No.', val: '9030028261313' }, { label: 'Acc Name', val: 'HUMARELIGIOUS Charity Organization' }, { label: 'Swift', val: 'SBICUGKXXXX' }]
+      html: '<ol><li>Log into your bank\'s online portal or visit your bank branch.</li><li>Choose <strong>International Wire Transfer</strong> (or local if in Uganda).</li><li>Bank Name: <strong>Stanbic Bank Uganda</strong></li><li>Account Name: <strong>HUMARELIGIOUS Charity Organization</strong></li><li>Account Number: <strong>9030028261313</strong></li><li>Swift / BIC Code: <strong>SBICUGKX</strong></li><li>Screenshot your transfer confirmation receipt and send via WhatsApp. Jazaakallah Khayr! 🤲</li></ol>',
+      copies: [{ label: 'Bank', val: 'Stanbic Bank Uganda' }, { label: 'Acc No.', val: '9030028261313' }, { label: 'Acc Name', val: 'HUMARELIGIOUS Charity Organization' }, { label: 'Swift', val: 'SBICUGKX' }]
     },
     tiktok: {
       title: '🎵 TikTok Coins — How to Send',
